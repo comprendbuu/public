@@ -18,6 +18,9 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    allowedHosts: ["c71b0e31-3c74-4beb-8ccf-1005903cddbc.lovableproject.com"]
+    allowedHosts: [
+      "c71b0e31-3c74-4beb-8ccf-1005903cddbc.lovableproject.com",
+      "dccb322a-eea6-402c-ace8-0ee7da4935c2-00-2xz9zk34nntm.worf.replit.dev"
+    ]
   }
 }))
